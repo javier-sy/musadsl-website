@@ -85,6 +85,22 @@
       }
     }
   }
+
+  .hero__image {
+    margin-top: 2.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
 }
 
 /* Content Sections */
@@ -133,6 +149,22 @@
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &--featured {
+    grid-column: 1 / -1;
+  }
+
+  .component__image {
+    margin-bottom: 1.25rem;
+    border-radius: 6px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
   }
 
   .component__title {
