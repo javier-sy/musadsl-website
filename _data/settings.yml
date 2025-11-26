@@ -1,0 +1,33 @@
+#-------------------------------
+# Site Settings
+title: MusaDSL
+logo: # You can add own logo. For example '/images/logo.png'.
+author: Javier Sánchez Yeste
+description: MusaDSL - A Ruby framework for algorithmic sound and musical thinking and composition
+
+#-------------------------------
+# Menu Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/#home'
+    - title: 'About'
+      url: '/#about'
+    - title: 'Components'
+      url: '/#components'
+    - title: 'Getting Started'
+      url: '/#getting-started'
+    - title: 'Author'
+      url: 'https://yeste.studio'
+      external: true
+
+#-------------------------------
+# Footer Settings
+social:
+  - {icon: "logo-github", color: "#24292e", label: Github, link: "https://github.com/javier-sy"}
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: javier@yeste.studio
+  author_website: https://yeste.studio

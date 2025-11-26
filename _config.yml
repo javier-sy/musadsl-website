@@ -1,0 +1,32 @@
+#-------------------------------
+# General Site Settings
+url: "https://musadsl.yeste.studio"
+#-------------------------------
+
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-sitemap
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+exclude:
+  - .idea/
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  silence_deprecations:
+    - import

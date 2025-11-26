@@ -1,0 +1,355 @@
+---
+layout: default
+title: MusaDSL - Algorithmic Sound and Musical Composition Framework
+description: MusaDSL is an open source Ruby framework for algorithmic sound and musical thinking and composition, generative music, and live coding.
+---
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+  <div class="container">
+    <h1 class="hero__title">MusaDSL</h1>
+    <p class="hero__subtitle">A Ruby framework for algorithmic sound and musical thinking and composition</p>
+    <div class="hero__meta">
+      <div class="meta-item">
+        <ion-icon name="code-slash-outline"></ion-icon>
+        <span>Open Source</span>
+      </div>
+      <div class="meta-item">
+        <ion-icon name="document-text-outline"></ion-icon>
+        <span>LGPL 3.0 License</span>
+      </div>
+      <div class="meta-item">
+        <ion-icon name="heart-outline"></ion-icon>
+        <span>Free to use, modify & share</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="content-section">
+  <div class="container">
+    <h2 class="section__title">About MusaDSL</h2>
+    <div class="section__content">
+      <p>
+        Musa-DSL is a domain-specific language based on Ruby designed for sonic and musical composition.
+        It emphasizes the creation of complex temporal structures independently of the audio rendering engine,
+        providing composers and developers with powerful tools for algorithmic composition, generative music,
+        and musical notation.
+      </p>
+      <p>
+        The framework separates timing and compositional logic from sound production. Rather than coupling
+        musical ideas to particular synthesizers or DAWs, Musa-DSL focuses on the deeper structures—sequences,
+        rhythms, harmonic progressions, and formal compositional systems.
+      </p>
+      <p>
+        <strong>Who is it for?</strong>
+      </p>
+      <ul>
+        <li>Composers exploring algorithmic composition</li>
+        <li>Musicians interested in generative music systems</li>
+        <li>Developers building music applications</li>
+        <li>Researchers in computational musicology</li>
+        <li>Live coders and interactive music performers</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Components Section -->
+<section id="components" class="content-section">
+  <div class="container">
+    <h2 class="section__title">Ecosystem Components</h2>
+
+    <!-- Core Framework -->
+    <div class="component-category">
+      <h3 class="category__title">Core Framework</h3>
+      <div class="components-grid">
+        <div class="component-card">
+          <h4 class="component__title">Musa-DSL</h4>
+          <p class="component__description">
+            The core Ruby framework for algorithmic sound and musical composition. Features include:
+            advanced sequencer with microsecond precision for polyrhythmic and polytemporal structures,
+            multiple clock sources (internal, MIDI, external), generative tools (Markov chains, Variatio,
+            Rules, GenerativeGrammar, Darwin genetic algorithms), Neumalang text-based notation system,
+            transcription to MIDI and MusicXML with ornament expansion, and comprehensive scale/tuning support.
+          </p>
+          <div class="component__links">
+            <a href="https://github.com/javier-sy/musa-dsl" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon> GitHub
+            </a>
+            <a href="https://github.com/javier-sy/musa-dsl#readme" target="_blank" rel="noopener">
+              <ion-icon name="document-text-outline"></ion-icon> README
+            </a>
+            <a href="https://rubydoc.info/gems/musa-dsl" target="_blank" rel="noopener">
+              <ion-icon name="book-outline"></ion-icon> API Docs
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Coding Environment -->
+    <div class="component-category">
+      <h3 class="category__title">Live Coding Environment (MusaLCE)</h3>
+      <div class="components-grid">
+        <div class="component-card">
+          <h4 class="component__title">MusaLCEServer</h4>
+          <p class="component__description">
+            The processing server that interprets code and commands in real-time.
+            It connects to your code editor and DAW, enabling live coding sessions
+            where your code generates music instantly.
+          </p>
+          <div class="component__links">
+            <a href="https://github.com/javier-sy/MusaLCEServer" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon> GitHub
+            </a>
+            <a href="https://github.com/javier-sy/MusaLCEServer#readme" target="_blank" rel="noopener">
+              <ion-icon name="document-text-outline"></ion-icon> README
+            </a>
+            <a href="https://rubydoc.info/gems/musalce-server" target="_blank" rel="noopener">
+              <ion-icon name="book-outline"></ion-icon> API Docs
+            </a>
+          </div>
+        </div>
+        <div class="component-card">
+          <h4 class="component__title">MusaLCE Client for VSCode</h4>
+          <p class="component__description">
+            Visual Studio Code extension for live coding with MusaDSL.
+            Provides a modern REPL interface connected to the MusaLCE server,
+            allowing you to execute code and see results in real-time.
+          </p>
+          <div class="component__links">
+            <a href="https://github.com/javier-sy/MusaLCEClientForVSCode" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon> GitHub
+            </a>
+            <a href="https://github.com/javier-sy/MusaLCEClientForVSCode#readme" target="_blank" rel="noopener">
+              <ion-icon name="document-text-outline"></ion-icon> README
+            </a>
+          </div>
+        </div>
+        <div class="component-card">
+          <h4 class="component__title">Musa-DSL Atom REPL</h4>
+          <p class="component__description">
+            Atom editor plugin for live coding (maintenance mode since Atom's sunset in December 2022).
+            Consider using the VSCode extension for new projects.
+          </p>
+          <div class="component__links">
+            <a href="https://github.com/javier-sy/musa-dsl-atom-repl" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon> GitHub
+            </a>
+            <a href="https://github.com/javier-sy/musa-dsl-atom-repl#readme" target="_blank" rel="noopener">
+              <ion-icon name="document-text-outline"></ion-icon> README
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DAW Connectors -->
+    <div class="component-category">
+      <h3 class="category__title">DAW Connectors</h3>
+      <div class="components-grid">
+        <div class="component-card">
+          <h4 class="component__title">MusaLCE for Bitwig</h4>
+          <p class="component__description">
+            MIDI Controller script for Bitwig Studio 4+. Enables seamless integration
+            between MusaLCE live coding sessions and Bitwig Studio, sending MIDI messages
+            directly to your tracks and instruments.
+          </p>
+          <div class="component__links">
+            <a href="https://github.com/javier-sy/MusaLCEforBitwig" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon> GitHub
+            </a>
+            <a href="https://github.com/javier-sy/MusaLCEforBitwig#readme" target="_blank" rel="noopener">
+              <ion-icon name="document-text-outline"></ion-icon> README
+            </a>
+          </div>
+        </div>
+        <div class="component-card">
+          <h4 class="component__title">MusaLCE for Live</h4>
+          <p class="component__description">
+            Ableton Live controller for MusaLCE. Built with Max/MSP, it establishes
+            communication between Ableton Live 11+ and the MusaLCE server, routing
+            MIDI messages to your Live session.
+          </p>
+          <div class="component__links">
+            <a href="https://github.com/javier-sy/MusaLCEforLive" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon> GitHub
+            </a>
+            <a href="https://github.com/javier-sy/MusaLCEforLive#readme" target="_blank" rel="noopener">
+              <ion-icon name="document-text-outline"></ion-icon> README
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MIDI Libraries Suite -->
+    <div class="component-category">
+      <h3 class="category__title">MIDI Libraries Suite</h3>
+      <p style="margin-bottom: 1rem;">
+        A comprehensive set of Ruby libraries for MIDI communication. This suite is based on
+        <a href="https://github.com/arirusso" target="_blank" rel="noopener">Ari Russo's</a> libraries
+        with modifications and optimizations for use with Musa-DSL.
+      </p>
+      <table class="libraries-table">
+        <thead>
+          <tr>
+            <th>Library</th>
+            <th>Function</th>
+            <th>Repository</th>
+            <th>Documentation</th>
+            <th>API Docs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>midi-events</strong></td>
+            <td>MIDI event representation and object-oriented message handling</td>
+            <td><a href="https://github.com/javier-sy/midi-events" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> GitHub</a></td>
+            <td><a href="https://github.com/javier-sy/midi-events#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+            <td><a href="https://rubydoc.info/gems/midi-events" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+          </tr>
+          <tr>
+            <td><strong>midi-parser</strong></td>
+            <td>MIDI data parsing, converts raw bytes to event objects</td>
+            <td><a href="https://github.com/javier-sy/midi-parser" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> GitHub</a></td>
+            <td><a href="https://github.com/javier-sy/midi-parser#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+            <td><a href="https://rubydoc.info/gems/midi-parser" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+          </tr>
+          <tr>
+            <td><strong>midi-communications</strong></td>
+            <td>Cross-platform MIDI communication with instruments and control surfaces</td>
+            <td><a href="https://github.com/javier-sy/midi-communications" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> GitHub</a></td>
+            <td><a href="https://github.com/javier-sy/midi-communications#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+            <td><a href="https://rubydoc.info/gems/midi-communications" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+          </tr>
+          <tr>
+            <td><strong>midi-communications-macos</strong></td>
+            <td>Low-level MIDI interface for macOS (CoreMIDI)</td>
+            <td><a href="https://github.com/javier-sy/midi-communications-macos" target="_blank" rel="noopener"><ion-icon name="logo-github"></ion-icon> GitHub</a></td>
+            <td><a href="https://github.com/javier-sy/midi-communications-macos#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+            <td><a href="https://rubydoc.info/gems/midi-communications-macos" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</section>
+
+<!-- Getting Started Section -->
+<section id="getting-started" class="content-section getting-started">
+  <div class="container">
+    <h2 class="section__title">Getting Started</h2>
+    <div class="section__content install-steps">
+
+      <h4>Requirements</h4>
+      <ul>
+        <li>Ruby 3.4 or later</li>
+        <li>For live coding: Ableton Live 11+ or Bitwig Studio 4+</li>
+      </ul>
+
+        <h4>Installation</h4>
+        <p>Install the core Musa-DSL gem:</p>
+        <pre><code>gem install musa-dsl</code></pre>
+
+        <p>For a complete live coding setup, you'll also need:</p>
+        <ol>
+          <li>Install the MusaLCE Server: <code>gem install musalce-server</code></li>
+          <li>Install the connector for your DAW (Bitwig or Ableton Live)</li>
+          <li>Install the VSCode extension</li>
+        </ol>
+
+        <h4>Documentation</h4>
+        <p>For detailed documentation, see the README and API docs of each project:</p>
+        <table class="libraries-table">
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>README</th>
+              <th>API Docs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Musa-DSL</strong></td>
+              <td><a href="https://github.com/javier-sy/musa-dsl#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td><a href="https://rubydoc.info/gems/musa-dsl" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+            </tr>
+            <tr>
+              <td><strong>midi-events</strong></td>
+              <td><a href="https://github.com/javier-sy/midi-events#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td><a href="https://rubydoc.info/gems/midi-events" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+            </tr>
+            <tr>
+              <td><strong>midi-parser</strong></td>
+              <td><a href="https://github.com/javier-sy/midi-parser#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td><a href="https://rubydoc.info/gems/midi-parser" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+            </tr>
+            <tr>
+              <td><strong>midi-communications</strong></td>
+              <td><a href="https://github.com/javier-sy/midi-communications#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td><a href="https://rubydoc.info/gems/midi-communications" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+            </tr>
+            <tr>
+              <td><strong>midi-communications-macos</strong></td>
+              <td><a href="https://github.com/javier-sy/midi-communications-macos#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td><a href="https://rubydoc.info/gems/midi-communications-macos" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+            </tr>
+            <tr>
+              <td><strong>MusaLCE Server</strong></td>
+              <td><a href="https://github.com/javier-sy/MusaLCEServer#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td><a href="https://rubydoc.info/gems/musalce-server" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
+            </tr>
+            <tr>
+              <td><strong>MusaLCE Client for VSCode</strong></td>
+              <td><a href="https://github.com/javier-sy/MusaLCEClientForVSCode#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>Musa-DSL Atom REPL</strong></td>
+              <td><a href="https://github.com/javier-sy/musa-dsl-atom-repl#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>MusaLCE for Bitwig</strong></td>
+              <td><a href="https://github.com/javier-sy/MusaLCEforBitwig#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td><strong>MusaLCE for Live</strong></td>
+              <td><a href="https://github.com/javier-sy/MusaLCEforLive#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+
+    </div>
+  </div>
+</section>
+
+<!-- Author Section -->
+<section id="author" class="content-section author-section">
+  <div class="container">
+    <h2 class="section__title">Author</h2>
+    <div class="author__info">
+      <p>
+        MusaDSL is created and maintained by
+        <a href="https://yeste.studio" target="_blank" rel="noopener">yeste.studio</a>,
+        exploring the intersection of sound, music, technology, and algorithmic composition.
+      </p>
+      <p style="margin-top: 1.5rem;">
+        <span class="license-badge">
+          <ion-icon name="scale-outline"></ion-icon>
+          LGPL 3.0 License
+        </span>
+      </p>
+      <p style="margin-top: 1rem; font-size: 0.95rem;">
+        You are welcome to use, try, modify, and contribute to any of the MusaDSL projects.
+        All source code is available on <a href="https://github.com/javier-sy" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+    </div>
+  </div>
+</section>
