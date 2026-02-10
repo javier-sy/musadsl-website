@@ -100,12 +100,28 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
           <h4 class="component__title">musa-claude-plugin</h4>
           <p class="component__description">
             A plugin for <a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a>
-            that gives the AI assistant deep knowledge of the MusaDSL framework. It provides semantic search
-            over documentation, API reference, and code examples through a vector database (sqlite-vec + Voyage AI
-            embeddings), enabling Claude to give accurate, sourced answers about algorithmic composition with MusaDSL.
-            Users can index their own compositions and generate structured musical analyses covering
-            formal structure, harmonic language, generative strategy, and more — all stored as searchable knowledge
-            through a configurable analysis framework with 8 default analytical dimensions.
+            that transforms Claude into an algorithmic composition assistant with deep knowledge of MusaDSL.
+            It supports a complete creative cycle — from ideation to implementation to analysis — backed by
+            two databases: <strong>knowledge.db</strong> (MusaDSL documentation, API, 23 demos) and
+            <strong>private.db</strong> (your own compositions and their musical analyses).
+          </p>
+          <p class="component__description">
+            <strong>Creative thinking</strong> (<code>/think</code>) — generates composition ideas across
+            8 configurable dimensions (structure, time, pitch, algorithm, texture, reference, dialogue with
+            composers, constraint), drawing from your previous analyses and MusaDSL capabilities.
+            <strong>Composition coding</strong> (<code>/code</code>) — translates musical intentions into
+            working MusaDSL code, verifying every API call against the knowledge base.
+            <strong>Semantic search</strong> (<code>/explain</code>) — retrieves accurate, sourced answers
+            from documentation, API reference, and code examples through a vector database (sqlite-vec +
+            Voyage AI embeddings).
+            <strong>Musical analysis</strong> (<code>/analyze</code>) — reads your code, interprets it
+            musically across 9 configurable dimensions, and stores the analysis as searchable knowledge
+            that enriches future ideation and coding.
+          </p>
+          <p class="component__description">
+            Each step feeds into the next:
+            <code>/think</code> → <code>/code</code> → <code>/index</code> → <code>/analyze</code> →
+            back to <code>/think</code>. The more you compose and analyze, the richer the assistant becomes.
           </p>
           <div class="component__links">
             <a href="https://github.com/javier-sy/musa-claude-plugin" target="_blank" rel="noopener">
