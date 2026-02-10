@@ -106,17 +106,29 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
             <strong>private.db</strong> (your own compositions and their musical analyses).
           </p>
           <p class="component__description">
+            <strong>Semantic search</strong> (<code>/explain</code>) — retrieves accurate, sourced answers
+            from documentation, API reference, and code examples through a vector database
+            (sqlite-vec + Voyage AI embeddings).
+          </p>
+          <p class="component__description">
             <strong>Creative thinking</strong> (<code>/think</code>) — generates composition ideas across
             8 configurable dimensions (structure, time, pitch, algorithm, texture, reference, dialogue with
             composers, constraint), drawing from your previous analyses and MusaDSL capabilities.
+            Customize the dimensions with <code>/inspiration_framework</code>.
+          </p>
+          <p class="component__description">
             <strong>Composition coding</strong> (<code>/code</code>) — translates musical intentions into
             working MusaDSL code, verifying every API call against the knowledge base.
-            <strong>Semantic search</strong> (<code>/explain</code>) — retrieves accurate, sourced answers
-            from documentation, API reference, and code examples through a vector database (sqlite-vec +
-            Voyage AI embeddings).
+          </p>
+          <p class="component__description">
+            <strong>Works indexing</strong> (<code>/index</code>) — indexes your compositions into
+            <strong>private.db</strong>, making them searchable and available for all other skills.
+          </p>
+          <p class="component__description">
             <strong>Musical analysis</strong> (<code>/analyze</code>) — reads your code, interprets it
             musically across 9 configurable dimensions, and stores the analysis as searchable knowledge
             that enriches future ideation and coding.
+            Customize the dimensions with <code>/analysis_framework</code>.
           </p>
           <p class="component__description">
             Each step feeds into the next:
