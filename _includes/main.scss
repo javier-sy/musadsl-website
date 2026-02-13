@@ -277,6 +277,12 @@
   }
 
   .install-steps {
+    h3 {
+      padding-bottom: 0.4rem;
+      margin-top: 2rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
     code {
       background: var(--background-alt-color);
       padding: 0.2rem 0.5rem;
