@@ -55,6 +55,14 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
         <li>Researchers in computational musicology</li>
         <li>Live coders and interactive music performers</li>
       </ul>
+      <p style="margin-top: 1.5rem;">
+        <strong>New to MusaDSL?</strong> Start composing right away with
+        <a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">RubyMine</a>
+        (free for non-commercial use) and the
+        <a href="https://github.com/javier-sy/musa-claude-plugin" target="_blank" rel="noopener">Claude Code plugin</a>
+        — an AI composition assistant that helps you learn, ideate, code, and analyze algorithmic music.
+        <a href="#getting-started">Get started &rarr;</a>
+      </p>
     </div>
   </div>
 </section>
@@ -101,39 +109,30 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
           <p class="component__description">
             A plugin for <a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a>
             that transforms Claude into an algorithmic composition assistant with deep knowledge of MusaDSL.
-            It supports a complete creative cycle — from ideation to implementation to analysis — backed by
-            two databases: <strong>knowledge.db</strong> (MusaDSL documentation, API, 23 demos) and
-            <strong>private.db</strong> (your own compositions and their musical analyses).
+            Ask questions about the framework in natural language. Get creative ideas for compositions.
+            Generate verified code from musical descriptions. Analyze your work and build a personal
+            knowledge base that grows with your practice.
           </p>
           <p class="component__description">
-            <strong>Semantic search</strong> (<code>/explain</code>) — retrieves accurate, sourced answers
-            from documentation, API reference, and code examples through a vector database
-            (sqlite-vec + Voyage AI embeddings).
-          </p>
-          <p class="component__description">
-            <strong>Creative thinking</strong> (<code>/think</code>) — generates composition ideas across
-            8 configurable dimensions (structure, time, pitch, algorithm, texture, reference, dialogue with
-            composers, constraint), drawing from your previous analyses and MusaDSL capabilities.
-            Customize the dimensions with <code>/inspiration_framework</code>.
-          </p>
-          <p class="component__description">
-            <strong>Composition coding</strong> (<code>/code</code>) — translates musical intentions into
-            working MusaDSL code, verifying every API call against the knowledge base.
-          </p>
-          <p class="component__description">
-            <strong>Works indexing</strong> (<code>/index</code>) — indexes your compositions into
-            <strong>private.db</strong>, making them searchable and available for all other skills.
-          </p>
-          <p class="component__description">
-            <strong>Musical analysis</strong> (<code>/analyze</code>) — reads your code, interprets it
-            musically across 9 configurable dimensions, and stores the analysis as searchable knowledge
-            that enriches future ideation and coding.
-            Customize the dimensions with <code>/analysis_framework</code>.
+            <strong><code>/explain</code></strong> &mdash; ask any question about MusaDSL and get sourced
+            answers with working code examples.
+            <strong><code>/think</code></strong> &mdash; creative ideation across 8 configurable musical
+            dimensions, drawing from your previous analyses and MusaDSL capabilities.
+            <strong><code>/code</code></strong> &mdash; describe your musical intention and get verified
+            MusaDSL code.
+            <strong><code>/index</code></strong> &mdash; add your compositions to a personal knowledge base.
+            <strong><code>/analyze</code></strong> &mdash; structured musical analysis across 9 configurable
+            dimensions, stored as searchable knowledge that enriches future sessions.
           </p>
           <p class="component__description">
             Each step feeds into the next:
-            <code>/think</code> → <code>/code</code> → <code>/index</code> → <code>/analyze</code> →
+            <code>/think</code> &rarr; <code>/code</code> &rarr; <code>/index</code> &rarr; <code>/analyze</code> &rarr;
             back to <code>/think</code>. The more you compose and analyze, the richer the assistant becomes.
+          </p>
+          <p class="component__description">
+            Backed by two databases: <strong>knowledge.db</strong> (MusaDSL documentation, API, 23 demos)
+            and <strong>private.db</strong> (your own compositions and their musical analyses).
+            Uses sqlite-vec + Voyage AI embeddings for semantic search.
           </p>
           <div class="component__links">
             <a href="https://github.com/javier-sy/musa-claude-plugin" target="_blank" rel="noopener">
@@ -302,6 +301,57 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
   <div class="container">
     <h2 class="section__title">Getting Started</h2>
     <div class="section__content install-steps">
+
+      <h3 style="margin-bottom: 0.5rem;">Recommended Editor: RubyMine</h3>
+      <p>
+        <a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">RubyMine</a>
+        provides the best experience for MusaDSL development &mdash; intelligent autocomplete of
+        methods and parameters, hover documentation, and type inference help you discover the API
+        as you code.
+      </p>
+      <p>
+        <strong>Free licenses available:</strong>
+      </p>
+      <ul>
+        <li><a href="https://www.jetbrains.com/non-commercial/" target="_blank" rel="noopener">Non-commercial use</a> &mdash; for learning, hobbies, open-source, content creation</li>
+        <li><a href="https://www.jetbrains.com/academy/student-pack/" target="_blank" rel="noopener">Students</a> and <a href="https://www.jetbrains.com/academy/teacher-pack/" target="_blank" rel="noopener">Teachers/Researchers</a> &mdash; with institutional email</li>
+      </ul>
+      <p>
+        VSCode with the Ruby LSP extension also works well, though Ruby autocomplete and hover documentation are less complete.
+      </p>
+
+      <h3 style="margin-bottom: 0.5rem;">AI Composition Assistant: Claude Code Plugin</h3>
+      <p>
+        The fastest way to learn and compose with MusaDSL is through the
+        <a href="https://github.com/javier-sy/musa-claude-plugin" target="_blank" rel="noopener"><strong>musa-claude-plugin</strong></a>
+        &mdash; a plugin for <a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a>
+        that helps you learn, ideate, code, and analyze algorithmic music:
+      </p>
+      <ul>
+        <li><strong><code>/explain</code></strong> &mdash; Ask any question about MusaDSL and get sourced answers with working code examples</li>
+        <li><strong><code>/think</code></strong> &mdash; Creative ideation across 8 musical dimensions</li>
+        <li><strong><code>/code</code></strong> &mdash; Describe your musical intention in natural language and get verified MusaDSL code</li>
+        <li><strong><code>/analyze</code></strong> &mdash; Structured analysis of your compositions across 9 musical dimensions</li>
+      </ul>
+      <p>
+        The plugin includes a semantic knowledge base covering all MusaDSL documentation, API reference,
+        and 22+ demo projects. Your compositions and analyses become searchable knowledge that enriches
+        future sessions.
+      </p>
+      <p><strong>Install in Claude Code:</strong></p>
+      <pre><code>/plugin marketplace add javier-sy/musa-claude-plugin
+/plugin install musa-claude-plugin@yeste.studio</code></pre>
+      <p>
+        Then add your <a href="https://dash.voyageai.com/" target="_blank" rel="noopener">Voyage AI</a>
+        API key to your shell profile:
+      </p>
+      <pre><code>export VOYAGE_API_KEY="your-key-here"</code></pre>
+      <p>
+        Run <code>/setup</code> to verify the installation.
+        See the <a href="https://github.com/javier-sy/musa-claude-plugin#readme" target="_blank" rel="noopener">plugin documentation</a> for details.
+      </p>
+
+      <h3 style="margin-bottom: 0.5rem;">Framework Installation</h3>
 
       <h4>Requirements</h4>
       <ul>
