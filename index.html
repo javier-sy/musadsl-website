@@ -338,12 +338,17 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
         and 22+ demo projects. Your compositions and analyses become searchable knowledge that enriches
         future sessions.
       </p>
+      <p>
+        <strong>Requirements:</strong>
+        <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">Ruby 3.4+</a> and a
+        <a href="https://dash.voyageai.com/" target="_blank" rel="noopener">Voyage AI</a> API key
+        (free tier is sufficient for personal use).
+      </p>
       <p><strong>Install in Claude Code:</strong></p>
       <pre><code>/plugin marketplace add javier-sy/musa-claude-plugin
 /plugin install musa-claude-plugin@yeste.studio</code></pre>
       <p>
-        Then add your <a href="https://dash.voyageai.com/" target="_blank" rel="noopener">Voyage AI</a>
-        API key to your shell profile:
+        Then add your Voyage AI API key to your shell profile:
       </p>
       <pre><code>export VOYAGE_API_KEY="your-key-here"</code></pre>
       <p>
@@ -353,22 +358,22 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
 
       <h3 style="margin-bottom: 0.5rem;">Framework Installation</h3>
 
-      <h4>Requirements</h4>
-      <ul>
-        <li>Ruby 3.4 or later</li>
-        <li>For live coding: Ableton Live 11+ or Bitwig Studio 4+</li>
-      </ul>
+      <p><strong>Requirements:</strong> <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">Ruby 3.4+</a></p>
+      <p>Install the core Musa-DSL gem:</p>
+      <pre><code>gem install musa-dsl</code></pre>
 
-        <h4>Installation</h4>
-        <p>Install the core Musa-DSL gem:</p>
-        <pre><code>gem install musa-dsl</code></pre>
+      <h3 style="margin-bottom: 0.5rem;">Live Coding Setup (MusaLCE)</h3>
 
-        <p>For a complete live coding setup, you'll also need:</p>
-        <ol>
-          <li>Install the MusaLCE Server: <code>gem install musalce-server</code></li>
-          <li>Install the connector for your DAW (Bitwig or Ableton Live)</li>
-          <li>Install the VSCode extension</li>
-        </ol>
+      <p>
+        For real-time coding sessions connected to a DAW, you can additionally set up the
+        MusaLCE live coding environment:
+      </p>
+      <p><strong>Additional requirements:</strong> Ableton Live 11+ or Bitwig Studio 4+</p>
+      <ol>
+        <li>Install the MusaLCE Server: <code>gem install musalce-server</code></li>
+        <li>Install the connector for your DAW (Bitwig or Ableton Live)</li>
+        <li>Install the VSCode extension</li>
+      </ol>
 
         <h4>Documentation</h4>
         <p>For detailed documentation, see the README and API docs of each project:</p>
