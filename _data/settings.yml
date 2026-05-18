@@ -17,8 +17,6 @@ menu__settings:
       url: '/#components'
     - title: 'Getting Started'
       url: '/#getting-started'
-    - title: 'Live Coding'
-      url: '/musalce'
     - title: 'Author'
       url: 'https://yeste.studio'
       external: true
