@@ -1,7 +1,7 @@
 ---
 layout: default
 title: MusaDSL - Algorithmic Sound and Musical Composition Framework
-description: MusaDSL is an open source Ruby framework for algorithmic sound and musical thinking and composition, generative music, and live coding.
+description: MusaDSL is an open source Ruby framework for algorithmic sound and musical thinking and composition, generative music.
 ---
 
 <!-- Hero Section -->
@@ -59,10 +59,17 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
         <strong>New to MusaDSL?</strong> Start composing right away with
         <a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">RubyMine</a>
         (free for non-commercial use) and the
-        <a href="https://github.com/javier-sy/nota-plugin-for-claude" target="_blank" rel="noopener">Nota plugin for Claude Code</a>
+        <a href="https://nota.yeste.studio">Nota plugin for Claude Code</a>
         — an AI composition assistant that helps you learn, ideate, code, and analyze algorithmic music.
         <a href="#getting-started">Get started &rarr;</a>
       </p>
+      <p style="margin-top: 1.5rem;">
+        <strong>Related products in the yeste.studio family:</strong>
+      </p>
+      <ul>
+        <li><a href="https://musalce.yeste.studio">MusaLCE</a> — live coding environment for MusaDSL + Bitwig / Ableton Live.</li>
+        <li><a href="https://nota.yeste.studio">Nota</a> — Claude Code plugin that turns Claude into an algorithmic-composition assistant for MusaDSL.</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -94,151 +101,6 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
             </a>
             <a href="https://rubydoc.info/gems/musa-dsl" target="_blank" rel="noopener">
               <ion-icon name="book-outline"></ion-icon> API Docs
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Claude Code Plugin -->
-    <div class="component-category">
-      <h3 class="category__title">Nota — Claude Code Plugin</h3>
-      <div class="components-grid">
-        <div class="component-card">
-          <h4 class="component__title">nota-plugin-for-claude</h4>
-          <p class="component__description">
-            A plugin for <a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a>
-            that transforms Claude into an algorithmic composition assistant with deep knowledge of MusaDSL.
-            Ask questions about the framework in natural language. Get creative ideas for compositions.
-            Generate verified code from musical descriptions. Analyze your work and build a personal
-            knowledge base that grows with your practice.
-          </p>
-          <p class="component__description">
-            <strong><code>/nota:explain</code></strong> &mdash; ask any question about MusaDSL and get sourced
-            answers with working code examples.
-            <strong><code>/nota:think</code></strong> &mdash; creative ideation across configurable musical
-            dimensions, drawing from your previous analyses and MusaDSL capabilities.
-            <strong><code>/nota:code</code></strong> &mdash; describe your musical intention and get verified
-            MusaDSL code.
-            <strong><code>/nota:index</code></strong> &mdash; add your compositions to a personal knowledge base.
-            <strong><code>/nota:analyze</code></strong> &mdash; structured musical analysis across configurable
-            dimensions, stored as searchable knowledge that enriches future sessions.
-            <strong><code>/nota:best-practices</code></strong> &mdash; consolidate recurring patterns from analyses
-            into searchable best practices that are automatically applied when writing new code.
-          </p>
-          <p class="component__description">
-            Each step feeds into the next:
-            <code>/nota:think</code> &rarr; <code>/nota:code</code> &rarr; <code>/nota:index</code> &rarr; <code>/nota:analyze</code> &rarr;
-            <code>/nota:best-practices</code> &rarr;
-            back to <code>/nota:think</code>. The more you compose and analyze, the richer the assistant becomes.
-          </p>
-          <p class="component__description">
-            Backed by two databases: <strong>knowledge.db</strong> (MusaDSL documentation, API, 23 demos)
-            and <strong>private.db</strong> (your own compositions and their musical analyses).
-            Uses sqlite-vec + Voyage AI embeddings for semantic search.
-          </p>
-          <div class="component__links">
-            <a href="https://github.com/javier-sy/nota-plugin-for-claude" target="_blank" rel="noopener">
-              <ion-icon name="logo-github"></ion-icon> GitHub
-            </a>
-            <a href="https://github.com/javier-sy/nota-plugin-for-claude#readme" target="_blank" rel="noopener">
-              <ion-icon name="document-text-outline"></ion-icon> README
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Live Coding Environment -->
-    <div class="component-category">
-      <h3 class="category__title">Live Coding Environment (MusaLCE)</h3>
-      <div class="components-grid">
-        <div class="component-card">
-          <h4 class="component__title">MusaLCEServer</h4>
-          <p class="component__description">
-            The processing server that interprets code and commands in real-time.
-            It connects to your code editor and DAW, enabling live coding sessions
-            where your code generates music instantly.
-          </p>
-          <div class="component__links">
-            <a href="https://github.com/javier-sy/musalce-server" target="_blank" rel="noopener">
-              <ion-icon name="logo-github"></ion-icon> GitHub
-            </a>
-            <a href="https://github.com/javier-sy/musalce-server#readme" target="_blank" rel="noopener">
-              <ion-icon name="document-text-outline"></ion-icon> README
-            </a>
-            <a href="https://rubydoc.info/gems/musalce-server" target="_blank" rel="noopener">
-              <ion-icon name="book-outline"></ion-icon> API Docs
-            </a>
-          </div>
-        </div>
-        <div class="component-card">
-          <h4 class="component__title">MusaLCE Client for VSCode</h4>
-          <p class="component__description">
-            Visual Studio Code extension for live coding with MusaDSL.
-            Provides a modern REPL interface connected to the MusaLCE server,
-            allowing you to execute code and see results in real-time.
-          </p>
-          <div class="component__links">
-            <a href="https://github.com/javier-sy/MusaLCEClientForVSCode" target="_blank" rel="noopener">
-              <ion-icon name="logo-github"></ion-icon> GitHub
-            </a>
-            <a href="https://github.com/javier-sy/MusaLCEClientForVSCode#readme" target="_blank" rel="noopener">
-              <ion-icon name="document-text-outline"></ion-icon> README
-            </a>
-          </div>
-        </div>
-        <div class="component-card">
-          <h4 class="component__title">Musa-DSL Atom REPL</h4>
-          <p class="component__description">
-            Atom editor plugin for live coding (maintenance mode since Atom's sunset in December 2022).
-            Consider using the VSCode extension for new projects.
-          </p>
-          <div class="component__links">
-            <a href="https://github.com/javier-sy/musa-dsl-atom-repl" target="_blank" rel="noopener">
-              <ion-icon name="logo-github"></ion-icon> GitHub
-            </a>
-            <a href="https://github.com/javier-sy/musa-dsl-atom-repl#readme" target="_blank" rel="noopener">
-              <ion-icon name="document-text-outline"></ion-icon> README
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- DAW Connectors -->
-    <div class="component-category">
-      <h3 class="category__title">DAW Connectors</h3>
-      <div class="components-grid">
-        <div class="component-card">
-          <h4 class="component__title">MusaLCE for Bitwig</h4>
-          <p class="component__description">
-            Controller extension for Bitwig Studio 5+. Enables seamless integration
-            between MusaLCE live coding sessions and Bitwig Studio, sending MIDI messages
-            directly to your tracks and instruments.
-          </p>
-          <div class="component__links">
-            <a href="https://github.com/javier-sy/MusaLCEforBitwig" target="_blank" rel="noopener">
-              <ion-icon name="logo-github"></ion-icon> GitHub
-            </a>
-            <a href="https://github.com/javier-sy/MusaLCEforBitwig#readme" target="_blank" rel="noopener">
-              <ion-icon name="document-text-outline"></ion-icon> README
-            </a>
-          </div>
-        </div>
-        <div class="component-card">
-          <h4 class="component__title">MusaLCE for Live</h4>
-          <p class="component__description">
-            Ableton Live controller for MusaLCE. Implemented as a MIDI Remote Script in Python,
-            it establishes communication between Ableton Live 11+ and the MusaLCE server,
-            routing MIDI messages to your Live session.
-          </p>
-          <div class="component__links">
-            <a href="https://github.com/javier-sy/MusaLCEforLive" target="_blank" rel="noopener">
-              <ion-icon name="logo-github"></ion-icon> GitHub
-            </a>
-            <a href="https://github.com/javier-sy/MusaLCEforLive#readme" target="_blank" rel="noopener">
-              <ion-icon name="document-text-outline"></ion-icon> README
             </a>
           </div>
         </div>
@@ -326,40 +188,11 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
       <h3>AI Composition Assistant: Nota</h3>
       <p>
         The fastest way to learn and compose with MusaDSL is through
-        <a href="https://github.com/javier-sy/nota-plugin-for-claude" target="_blank" rel="noopener"><strong>Nota</strong></a>
+        <a href="https://nota.yeste.studio"><strong>Nota</strong></a>
         &mdash; a plugin for <a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a>
-        that helps you learn, ideate, code, and analyze algorithmic music:
-      </p>
-      <ul>
-        <li><strong><code>/nota:explain</code></strong> &mdash; Ask any question about MusaDSL and get sourced answers with working code examples</li>
-        <li><strong><code>/nota:think</code></strong> &mdash; Creative ideation across multiple musical dimensions</li>
-        <li><strong><code>/nota:code</code></strong> &mdash; Describe your musical intention in natural language and get verified MusaDSL code</li>
-        <li><strong><code>/nota:analyze</code></strong> &mdash; Structured analysis of your compositions across multiple musical dimensions</li>
-        <li><strong><code>/nota:best-practices</code></strong> &mdash; Consolidate recurring patterns into searchable best practices</li>
-      </ul>
-      <p>
-        The plugin includes a semantic knowledge base covering all MusaDSL documentation, API reference,
-        22+ demo projects, and 12 built-in composition best practices. Your compositions, analyses, and
-        practices become searchable knowledge that enriches future sessions.
-      </p>
-      <p>
-        <strong>Requirements:</strong>
-        <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">Ruby 3.4+</a> and a
-        <a href="https://dash.voyageai.com/" target="_blank" rel="noopener">Voyage AI</a> API key
-        (free tier is sufficient for personal use).
-      </p>
-      <p><strong>Install in Claude Code:</strong></p>
-      <p>First, add the Nota marketplace:</p>
-      <pre><code>/plugin marketplace add javier-sy/nota-plugin-for-claude</code></pre>
-      <p>Then install the plugin:</p>
-      <pre><code>/plugin install nota@yeste.studio</code></pre>
-      <p>
-        Then add your Voyage AI API key to your shell profile:
-      </p>
-      <pre><code>export VOYAGE_API_KEY="your-key-here"</code></pre>
-      <p>
-        Run <code>/nota:setup</code> to verify the installation.
-        See the <a href="https://github.com/javier-sy/nota-plugin-for-claude#readme" target="_blank" rel="noopener">Nota documentation</a> for details.
+        that helps you learn, ideate, code, and analyze algorithmic music. See
+        <a href="https://nota.yeste.studio">nota.yeste.studio</a> for full documentation, install
+        instructions, and the catalog of <code>/nota:*</code> commands.
       </p>
 
       <h3>Framework Installation</h3>
@@ -368,32 +201,12 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
       <p>Install the core Musa-DSL gem:</p>
       <pre><code>gem install musa-dsl</code></pre>
 
-      <h3>Live Coding Setup (MusaLCE)</h3>
+      <h3>Live Coding with a DAW</h3>
       <p>
-        For real-time coding sessions, you can additionally set up the
-        MusaLCE live coding environment. There are two ways to use it:
+        For real-time coding sessions connected to Ableton Live or Bitwig Studio, see
+        <a href="https://musalce.yeste.studio"><strong>MusaLCE</strong></a>
+        &mdash; the live coding environment for MusaDSL with VSCode extension and DAW connectors.
       </p>
-      <ul>
-        <li><strong>Standalone</strong> — bring your own REPL. Best for SuperCollider,
-          Max/MSP, OSC apps or custom hardware. See the
-          <a href="https://github.com/javier-sy/musa-dsl/blob/master/docs/subsystems/repl.md" target="_blank" rel="noopener">REPL subsystem doc</a>.</li>
-        <li><strong>Suite workflow</strong> — <code>musalce-server</code> packages the REPL,
-          sequencer and DAW handler for Ableton Live 11+ or Bitwig Studio 5+. Optional
-          Stream Deck integration via <strong>Pulso</strong>,
-          <a href="https://yeste.studio" target="_blank" rel="noopener">yeste.studio</a>'s
-          upcoming Stream Deck plugin for the MusaLCE Surface protocol (Bitwig only
-          initially; public release pending). See the
-          <a href="https://github.com/javier-sy/musalce-server/blob/master/docs/architecture.md" target="_blank" rel="noopener">architecture reference</a>.</li>
-      </ul>
-      <p><strong>Additional requirements:</strong> Ableton Live 11+ or Bitwig Studio 5+</p>
-      <p>Suite Quick Start:</p>
-      <ol>
-        <li>Install the MusaLCE Server: <code>gem install musalce-server</code></li>
-        <li>Install the connector for your DAW (<a href="https://github.com/javier-sy/MusaLCEforBitwig" target="_blank" rel="noopener">Bitwig</a> or <a href="https://github.com/javier-sy/MusaLCEforLive" target="_blank" rel="noopener">Ableton Live</a>)</li>
-        <li>Install the VSCode extension: <code>code --install-extension javier-sy.musa-lce-client-for-vscode</code></li>
-        <li>Start the server: <code>musalce-server bitwig</code> (or <code>musalce-server live</code>)</li>
-        <li>Open a <code>.rb</code> file in VSCode and send code with <code>Ctrl+Alt+Enter</code>.</li>
-      </ol>
 
       <h3>Documentation</h3>
       <p>For detailed documentation, see the README and API docs of each project:</p>
@@ -430,31 +243,6 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
             <td><strong>midi-communications-macos</strong></td>
             <td><a href="https://github.com/javier-sy/midi-communications-macos#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
             <td><a href="https://rubydoc.info/gems/midi-communications-macos" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
-          </tr>
-          <tr>
-            <td><strong>MusaLCE Server</strong></td>
-            <td><a href="https://github.com/javier-sy/musalce-server#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
-            <td><a href="https://rubydoc.info/gems/musalce-server" target="_blank" rel="noopener"><ion-icon name="book-outline"></ion-icon> API</a></td>
-          </tr>
-          <tr>
-            <td><strong>MusaLCE Client for VSCode</strong></td>
-            <td><a href="https://github.com/javier-sy/MusaLCEClientForVSCode#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
-            <td>—</td>
-          </tr>
-          <tr>
-            <td><strong>Musa-DSL Atom REPL</strong></td>
-            <td><a href="https://github.com/javier-sy/musa-dsl-atom-repl#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
-            <td>—</td>
-          </tr>
-          <tr>
-            <td><strong>MusaLCE for Bitwig</strong></td>
-            <td><a href="https://github.com/javier-sy/MusaLCEforBitwig#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
-            <td>—</td>
-          </tr>
-          <tr>
-            <td><strong>MusaLCE for Live</strong></td>
-            <td><a href="https://github.com/javier-sy/MusaLCEforLive#readme" target="_blank" rel="noopener"><ion-icon name="document-text-outline"></ion-icon> README</a></td>
-            <td>—</td>
           </tr>
         </tbody>
       </table>
