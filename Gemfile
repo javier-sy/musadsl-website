@@ -14,4 +14,5 @@ gem 'logger'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4'
+  gem 'jekyll-remote-theme', '~> 0.4'
 end
