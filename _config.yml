@@ -3,11 +3,15 @@
 url: "https://musadsl.yeste.studio"
 #-------------------------------
 
+# Shared theme — see https://github.com/javier-sy/yeste-studio-theme
+remote_theme: javier-sy/yeste-studio-theme
+
 # Build Settings
 markdown: kramdown
 permalink: /:title
 plugins:
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Pages Path
 defaults:
