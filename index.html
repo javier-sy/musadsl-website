@@ -55,12 +55,6 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
         <li>Researchers in computational musicology</li>
         <li>Live coders and interactive music performers</li>
       </ul>
-      <p style="margin-top: 1.5rem;">
-        <strong>New to MusaDSL?</strong> Use your favourite source code editor &mdash; I recommend
-        <a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">RubyMine</a>
-        (free for non-commercial use).
-        <a href="#getting-started">Get started &rarr;</a>
-      </p>
     </div>
   </div>
 </section>
@@ -72,14 +66,15 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
     <div class="section__content">
       <p>
         MusaDSL separates compositional logic from audio rendering, letting you build complex musical
-        structures independently of the synthesizers or DAWs used to play them. This architecture
-        supports the exploration of generative systems, algorithmic composition and live coding.
+        structures independently of the devices used to play them.
+        </p>
+      <p>
+        The devices can be anything you can connect to via MIDI (Synths, DAWs, etc.), OSC (Max/MSP, SuperCollider, PD, etc.)
+        or any other protocol you implement to connect to your sound generating artifacts.
       </p>
       <p>
-        I use MusaDSL in several of my own works, such as <em>Espiral</em>, <em>El Bosque</em>,
-        <em>Piezoreflections</em> and the <em>Estudio Fibonacci</em>.
+        This architecture supports the exploration of generative systems, algorithmic composition and live coding.
       </p>
-
       <h3>Key features</h3>
       <ul>
         <li><strong>Advanced sequencer</strong> with microsecond precision for polyrhythmic and polytemporal structures, with multiple clock sources (internal, MIDI, external).</li>
@@ -194,11 +189,12 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
     <h2 class="section__title">Getting Started</h2>
     <div class="section__content install-steps">
 
-      <h3>Recommended Editor: RubyMine</h3>
+      <h3>Recommended Editor</h3>
+
+      <h4>RubyMine</h4>
       <p>
-        <a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">RubyMine</a>
-        provides the best experience for MusaDSL development &mdash; intelligent autocomplete of
-        methods and parameters, hover documentation, and type inference help you discover the API
+        RubyMine provides the best experience for MusaDSL development &mdash; intelligent autocomplete
+        of methods and parameters, hover documentation, and type inference help you discover the API
         as you code.
       </p>
       <p>
@@ -209,7 +205,16 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
         <li><a href="https://www.jetbrains.com/academy/student-pack/" target="_blank" rel="noopener">Students</a> and <a href="https://www.jetbrains.com/academy/teacher-pack/" target="_blank" rel="noopener">Teachers/Researchers</a> &mdash; with institutional email</li>
       </ul>
       <p>
-        VSCode with the Ruby LSP extension also works well, though Ruby autocomplete and hover documentation are less complete.
+        Download on: <a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">jetbrains.com/ruby</a>
+      </p>
+
+      <h4>Visual Studio Code</h4>
+      <p>
+        VSCode with the Ruby LSP extension also works well, though Ruby autocomplete and hover
+        documentation are less complete than in RubyMine.
+      </p>
+      <p>
+        Download on: <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">code.visualstudio.com</a>
       </p>
 
       <h3>Framework Installation</h3>
@@ -283,24 +288,7 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
 </section>
 
 <!-- Related Products Section -->
-<section id="related" class="content-section">
-  <div class="container">
-    <h2 class="section__title">More from the MusaDSL ecosystem</h2>
-    <div class="section__content">
-      <ul>
-        <li><a href="https://musadsl.yeste.studio">MusaDSL</a> &mdash; Ruby framework for algorithmic sound and musical composition.</li>
-        <li><a href="https://musalce.yeste.studio">MusaLCE</a> &mdash; live coding environment for Ableton Live and Bitwig Studio.</li>
-        <li><a href="https://nota.yeste.studio">Nota</a> &mdash; Claude Code plugin for AI-assisted MusaDSL composition.</li>
-        <li><strong>Pulso</strong> &mdash; Stream Deck control for music DAWs (Bitwig today; Ableton planned), with MusaLCE Surface integration <em>(upcoming)</em>.</li>
-      </ul>
-      <p>
-        For the full map &mdash; descriptions, how they relate, which one to pick for what &mdash; see
-        <a href="https://musa-ecosystem.yeste.studio">musa-ecosystem.yeste.studio</a>.
-      </p>
-    </div>
-  </div>
-</section>
-
+{% include related-products.html %}
 <!-- Author Section -->
 <section id="author" class="content-section author-section">
   <div class="container">
