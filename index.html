@@ -56,7 +56,7 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
         <li>Live coders and interactive music performers</li>
       </ul>
       <p style="margin-top: 1.5rem;">
-        <strong>New to MusaDSL?</strong> Start composing right away with
+        <strong>New to MusaDSL?</strong> Use your favourite source code editor &mdash; I recommend
         <a href="https://www.jetbrains.com/ruby/" target="_blank" rel="noopener">RubyMine</a>
         (free for non-commercial use).
         <a href="#getting-started">Get started &rarr;</a>
@@ -65,10 +65,46 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
   </div>
 </section>
 
+<!-- Detail Section -->
+<section id="details" class="content-section">
+  <div class="container">
+    <h2 class="section__title">MusaDSL in detail</h2>
+    <div class="section__content">
+      <p>
+        MusaDSL separates compositional logic from audio rendering, letting you build complex musical
+        structures independently of the synthesizers or DAWs used to play them. This architecture
+        supports the exploration of generative systems, algorithmic composition and live coding.
+      </p>
+      <p>
+        I use MusaDSL in several of my own works, such as <em>Espiral</em>, <em>El Bosque</em>,
+        <em>Piezoreflections</em> and the <em>Estudio Fibonacci</em>.
+      </p>
+
+      <h3>Key features</h3>
+      <ul>
+        <li><strong>Advanced sequencer</strong> with microsecond precision for polyrhythmic and polytemporal structures, with multiple clock sources (internal, MIDI, external).</li>
+        <li><strong>Generative tools</strong>: Markov chains, Variatio, Rules (L-systems), GenerativeGrammar and Darwin genetic algorithms.</li>
+        <li><strong>Series</strong>: lazy iterators with functional operations (transform, filter, invert, combine, slice, repeat) and specialised generators (Fibonacci, harmonic series, constrained random).</li>
+        <li><strong>30+ scales and modes</strong> in 9 families (Greek modes, pentatonic, blues, symmetric, bebop, ethnic, melodic minor&hellip;) with equal-temperament and just-intonation support.</li>
+        <li><strong>Chord system</strong> with quality, extensions, voicings and chord&ndash;scale navigation.</li>
+        <li><strong>Datasets and Score</strong>: structured representation of musical events (scale grades, MIDI pitches, dynamics) with multi-voice organisation.</li>
+        <li><strong>Neumalang</strong> &mdash; textual notation system with support for scale grades and ornaments.</li>
+        <li><strong>Matrix operations</strong> for transforming sonic and musical structures.</li>
+        <li><strong>Transcription</strong> to MIDI and score generation in MusicXML with ornament expansion.</li>
+        <li><strong>Cross-platform MIDI communication</strong> for connecting to instruments and controllers.</li>
+        <li><strong>Polyphonic MIDI voice management</strong> with automatic voice allocation.</li>
+      </ul>
+      <p>
+        Licensed under <strong>LGPL 3.0</strong> or <strong>GPL 3.0</strong>, depending on the component.
+      </p>
+    </div>
+  </div>
+</section>
+
 <!-- Components Section -->
 <section id="components" class="content-section">
   <div class="container">
-    <h2 class="section__title">Ecosystem Components</h2>
+    <h2 class="section__title">Main Ecosystem Components</h2>
 
     <!-- Core Framework -->
     <div class="component-category">
