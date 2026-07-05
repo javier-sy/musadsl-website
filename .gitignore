@@ -44,3 +44,6 @@ Thumbs.db
 /rdoc/
 .rvmrc
 .claude/
+
+# Jekyll remote-theme scratch dir (macOS var/folders cache)
+private/
