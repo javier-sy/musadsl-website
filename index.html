@@ -16,7 +16,7 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
       </div>
       <div class="meta-item">
         <ion-icon name="document-text-outline"></ion-icon>
-        <span>LGPL 3.0 License</span>
+        <span><a href="#license">GPL-3.0-or-later</a></span>
       </div>
       <div class="meta-item">
         <ion-icon name="heart-outline"></ion-icon>
@@ -90,7 +90,8 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
         <li><strong>Polyphonic MIDI voice management</strong> with automatic voice allocation.</li>
       </ul>
       <p>
-        Licensed under <strong>LGPL 3.0</strong> or <strong>GPL 3.0</strong>, depending on the component.
+        MusaDSL is free software, GPL-3.0-or-later: see <a href="#license">License</a> for what that
+        means for you and for the commercial license.
       </p>
     </div>
   </div>
@@ -299,7 +300,37 @@ description: MusaDSL is an open source Ruby framework for algorithmic sound and 
   </div>
 </section>
 
+<!-- License Section -->
+<section id="license" class="content-section">
+  <div class="container">
+    <h2 class="section__title">License</h2>
+    <div class="section__content">
+      {% include license-notice.html product="MusaDSL" %}
+
+      <h3>Questions and answers</h3>
+      <p>
+        <strong>Is my music affected by the GPL?</strong> No. The GPL covers the software, not what you
+        make with it. Your compositions, scores and recordings are yours, under any terms you choose.
+      </p>
+      <p>
+        <strong>I publish the scripts I compose with.</strong> Scripts that <code>require 'musa-dsl'</code>
+        are, in the GPL's reading, works based on MusaDSL: publish them under the GPL or a compatible
+        license. Most people already do; if that is a problem for you, write to us.
+      </p>
+      <p>
+        <strong>I want to build a product on MusaDSL.</strong> Release it under the GPL with its source,
+        or get a commercial license from yeste.studio - the same offer applies to every yeste.studio
+        product, whatever its license.
+      </p>
+      <p>
+        <strong>I use MusaDSL at a university or in a company.</strong> Using, teaching and modifying it
+        internally needs nothing. The GPL only applies when you distribute software built on it.
+      </p>
+    </div>
+  </div>
+</section>
+
 <!-- Related Products Section -->
 {% include related-products.html %}
 <!-- Author Section -->
-{% include author.html product="MusaDSL" %}
+{% include author.html product="MusaDSL" license="GPL-3.0-or-later" %}
