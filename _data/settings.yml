@@ -4,6 +4,10 @@ title: MusaDSL
 author: yeste.studio
 description: MusaDSL - A Ruby framework for algorithmic sound and musical thinking and composition
 
+# The news topic this site shows (yeste-studio-theme/_data/topics.yml): its headlines, page
+# and feed on yeste.studio.
+news_topic: musadsl
+
 #-------------------------------
 # Menu Settings
 menu__settings:

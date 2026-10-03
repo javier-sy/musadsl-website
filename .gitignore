@@ -47,3 +47,5 @@ Thumbs.db
 
 # Jekyll remote-theme scratch dir (macOS var/folders cache)
 private/
+# Fetched from yeste.studio by the Pages workflow
+_data/news.json
