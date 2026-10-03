@@ -2,7 +2,7 @@
 # (`repo`) and RubyGems name (`gem`). Cards and tables build their GitHub, README and API links
 # from repo and gem (yeste-studio-theme/_data/link_types.yml).
 musa-dsl:
-  name: Musa-DSL
+  name: MusaDSL
   repo: javier-sy/musa-dsl
   gem: musa-dsl
 midi-events:

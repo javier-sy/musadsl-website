@@ -14,7 +14,7 @@ hero:
     - icon: heart-outline
       text: Free to use, modify & share
   image: /images/musa-dsl.png
-  image_alt: Musa-DSL code example
+  image_alt: MusaDSL code example
 author:
   product: MusaDSL
   license: GPL-3.0-or-later

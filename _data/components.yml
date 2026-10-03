@@ -1,7 +1,7 @@
 # The Components section (yeste-studio-theme/_includes/component-grid.html).
 - title: Core Framework
   cards:
-    - title: Musa-DSL
+    - title: MusaDSL
       project: musa-dsl
       description: >-
         The core Ruby framework for algorithmic sound and musical composition. Features include:
@@ -17,5 +17,5 @@
   intro: >-
     A comprehensive set of Ruby libraries for MIDI communication. This suite is based on
     [Ari Russo's](https://github.com/arirusso){:target="_blank" rel="noopener"} libraries
-    with modifications and optimizations for use with Musa-DSL.
+    with modifications and optimizations for use with MusaDSL.
   table: midi_libraries

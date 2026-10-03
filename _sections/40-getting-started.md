@@ -12,14 +12,14 @@ content_class: install-steps
 
 #### RubyMine
 
-RubyMine provides the best experience for MusaDSL development &mdash; intelligent autocomplete
+RubyMine provides the best experience for MusaDSL development - intelligent autocomplete
 of methods and parameters, hover documentation, and type inference help you discover the API
 as you code.
 
 **Free licenses available:**
 
-- [Non-commercial use](https://www.jetbrains.com/non-commercial/){:ext} &mdash; for learning, hobbies, open-source, content creation
-- [Students](https://www.jetbrains.com/academy/student-pack/){:ext} and [Teachers/Researchers](https://www.jetbrains.com/academy/teacher-pack/){:ext} &mdash; with institutional email
+- [Non-commercial use](https://www.jetbrains.com/non-commercial/){:ext} - for learning, hobbies, open-source, content creation
+- [Students](https://www.jetbrains.com/academy/student-pack/){:ext} and [Teachers/Researchers](https://www.jetbrains.com/academy/teacher-pack/){:ext} - with institutional email
 
 Download on: [jetbrains.com/ruby](https://www.jetbrains.com/ruby/){:ext}
 
@@ -32,9 +32,9 @@ Download on: [code.visualstudio.com](https://code.visualstudio.com/){:ext}
 
 ### Framework Installation
 
-**Requirements:** [Ruby 3.4+](https://www.ruby-lang.org/){:ext}
+**Requirements:** [Ruby 3.4.7+](https://www.ruby-lang.org/){:ext}
 
-Install the core Musa-DSL gem:
+Install the core `musa-dsl` gem:
 
     gem install musa-dsl
 
@@ -46,7 +46,7 @@ For detailed documentation, see the README and API docs of each project:
 
 ### Demo Projects
 
-A comprehensive collection of **20+ working examples** demonstrating
+A comprehensive collection of **working examples** demonstrating
 MusaDSL capabilities, from basic setup to advanced multi-phase compositions:
 
 - **Basic concepts**: Setup, series, neumas, canon

@@ -14,7 +14,7 @@ news_topic: musadsl
 #-------------------------------
 # Footer Settings
 social:
-  - {icon: "logo-github", color: "#24292e", label: Github, link: "https://github.com/javier-sy"}
+  - {icon: "logo-github", color: "#24292e", label: GitHub, link: "https://github.com/javier-sy"}
 
 #-------------------------------
 # Contact Settings

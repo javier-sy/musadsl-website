@@ -16,11 +16,11 @@ This architecture supports the exploration of generative systems, algorithmic co
 
 - **Advanced sequencer** with microsecond precision for polyrhythmic and polytemporal structures, with multiple clock sources (internal, MIDI, external).
 - **Generative tools**: Markov chains, Variatio, GenerativeGrammar and Darwin genetic algorithms.
-- **Series**: lazy iterators with functional operations (transform, filter, invert, combine, slice, repeat) and specialised generators (Fibonacci, harmonic series, constrained random).
+- **Series**: lazy iterators with functional operations (transform, filter, invert, combine, slice, repeat) and specialized generators (Fibonacci, harmonic series, constrained random).
 - **30+ scales and modes** in 9 families (Greek modes, pentatonic, blues, symmetric, bebop, ethnic, melodic minor&hellip;) with equal-temperament and just-intonation support.
 - **Chord system** with quality, extensions, voicings and chord&ndash;scale navigation.
-- **Datasets and Score**: structured representation of musical events (scale grades, MIDI pitches, dynamics) with multi-voice organisation.
-- **Neumalang** &mdash; textual notation system with support for scale grades and ornaments.
+- **Datasets and Score**: structured representation of musical events (scale grades, MIDI pitches, dynamics) with multi-voice organization.
+- **Neumalang** - textual notation system with support for scale grades and ornaments.
 - **Matrix operations** for transforming sonic and musical structures.
 - **Transcription** to MIDI and score generation in MusicXML with ornament expansion.
 - **Cross-platform MIDI communication** for connecting to instruments and controllers.

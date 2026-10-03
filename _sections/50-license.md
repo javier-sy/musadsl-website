@@ -12,7 +12,7 @@ make with it. Your compositions, scores and recordings are yours, under any term
 
 **I publish the scripts I compose with.** Scripts that `require 'musa-dsl'`
 are, in the GPL's reading, works based on MusaDSL: publish them under the GPL or a compatible
-license. Most people already do; if that is a problem for you, write to us.
+license. Most people already do; if that is a problem for you, write to yeste.studio.
 
 **I want to build a product on MusaDSL.** Release it under the GPL with its source,
 or get a commercial license from yeste.studio - the same offer applies to every yeste.studio
