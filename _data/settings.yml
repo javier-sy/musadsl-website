@@ -22,6 +22,9 @@ menu__settings:
       url: '/#components'
     - title: 'Getting Started'
       url: '/#getting-started'
+    - title: 'News'
+      url: '/#news'
+      group: true   # starts a new group: the header sets it apart from the item before
     - title: 'Author'
       url: 'https://yeste.studio'
       external: true
