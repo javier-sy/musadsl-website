@@ -1,0 +1,21 @@
+# The Components section (yeste-studio-theme/_includes/component-grid.html).
+- title: Core Framework
+  cards:
+    - title: Musa-DSL
+      project: musa-dsl
+      description: >-
+        The core Ruby framework for algorithmic sound and musical composition. Features include:
+        advanced sequencer with microsecond precision for polyrhythmic and polytemporal structures,
+        multiple clock sources (internal, MIDI, external), generative tools (Markov chains, Variatio,
+        GenerativeGrammar, Darwin genetic algorithms), Neumalang text-based notation system,
+        transcription to MIDI and MusicXML with ornament expansion, and comprehensive scale/tuning support.
+      links:
+        - {type: github}
+        - {type: readme}
+        - {type: api, label: API Docs}
+- title: MIDI Libraries Suite
+  intro: >-
+    A comprehensive set of Ruby libraries for MIDI communication. This suite is based on
+    [Ari Russo's](https://github.com/arirusso){:target="_blank" rel="noopener"} libraries
+    with modifications and optimizations for use with Musa-DSL.
+  table: midi_libraries

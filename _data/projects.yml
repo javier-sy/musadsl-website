@@ -1,0 +1,32 @@
+# The projects the page links to, by key: name, what it does (`function`), GitHub repository
+# (`repo`) and RubyGems name (`gem`). Cards and tables build their GitHub, README and API links
+# from repo and gem (yeste-studio-theme/_data/link_types.yml).
+musa-dsl:
+  name: Musa-DSL
+  repo: javier-sy/musa-dsl
+  gem: musa-dsl
+midi-events:
+  name: midi-events
+  function: MIDI event representation and object-oriented message handling
+  repo: javier-sy/midi-events
+  gem: midi-events
+midi-parser:
+  name: midi-parser
+  function: MIDI data parsing, converts raw bytes to event objects
+  repo: javier-sy/midi-parser
+  gem: midi-parser
+midi-communications:
+  name: midi-communications
+  function: Cross-platform MIDI communication with instruments and control surfaces
+  repo: javier-sy/midi-communications
+  gem: midi-communications
+midi-communications-macos:
+  name: midi-communications-macos
+  function: Low-level MIDI interface for macOS (CoreMIDI)
+  repo: javier-sy/midi-communications-macos
+  gem: midi-communications-macos
+midi-communications-windows:
+  name: midi-communications-windows
+  function: Low-level MIDI interface for Windows (WinMM)
+  repo: javier-sy/midi-communications-windows
+  gem: midi-communications-windows

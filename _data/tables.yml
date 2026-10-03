@@ -1,0 +1,16 @@
+# Link tables (yeste-studio-theme/_includes/link-table.html): columns, and rows as keys of
+# projects.yml.
+midi_libraries:
+  columns:
+    - {header: Library, field: name, strong: true}
+    - {header: Function, field: function}
+    - {header: Repository, link: github}
+    - {header: Documentation, link: readme}
+    - {header: API Docs, link: api}
+  rows: [midi-events, midi-parser, midi-communications, midi-communications-macos, midi-communications-windows]
+documentation:
+  columns:
+    - {header: Project, field: name, strong: true}
+    - {header: README, link: readme}
+    - {header: API Docs, link: api}
+  rows: [musa-dsl, midi-events, midi-parser, midi-communications, midi-communications-macos, midi-communications-windows]

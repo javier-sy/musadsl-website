@@ -9,25 +9,7 @@ description: MusaDSL - A Ruby framework for algorithmic sound and musical thinki
 news_topic: musadsl
 
 #-------------------------------
-# Menu Settings
-menu__settings:
-  menu__items:
-    - title: 'Home'
-      url: '/#home'
-    - title: 'About'
-      url: '/#about'
-    - title: 'Details'
-      url: '/#details'
-    - title: 'Components'
-      url: '/#components'
-    - title: 'Getting Started'
-      url: '/#getting-started'
-    - title: 'News'
-      url: '/#news'
-      group: true   # starts a new group: the header sets it apart from the item before
-    - title: 'Author'
-      url: 'https://yeste.studio'
-      external: true
+# Menu: built by the theme from _sections (Home, every section with a `menu` label, News, Author)
 
 #-------------------------------
 # Footer Settings
